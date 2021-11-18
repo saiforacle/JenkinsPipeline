@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="src/test/resources/GLReconEngine",glue= {"Step"}
-,tags= "@smoke")
+,tags= "@GLReconEngine")
 public class TestRunner {
 	
 }
